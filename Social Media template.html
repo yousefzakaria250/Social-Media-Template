@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<body style="background-color: #f5f7f8;">
+
+  <!-- first Row -->
+
+<nav class="navbar navbar-expand-sm bg-dark navbar-dark  ">
+  <div class="container-fluid  ">
+    <a class="btn btn-secondary active  " href="#">
+        <i class="fa fa-home fa-1x" ></i> Logo 
+    </a>
+     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">  
+      <span class="navbar-toggler-icon"></span>
+    </button> 
+    <div class="collapse navbar-collapse  position-relative ms-2" id="collapsibleNavbar">
+      <ul class="navbar-nav text-light">
+        <li class="">
+          <a class=" btn btn-outline-secondary border-dark " href="#">
+            <i class="fa fa-globe fa-1x" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-secondary border-dark" href="#"> 
+            <i class="fa fa-user fa-1x" aria-hidden="true"></i> 
+        </a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-secondary border-dark" href="#"><i class="fa fa-mail-bulk " aria-hidden="true"></i></a>
+        </li>  
+       
+        <li class="nav-item dropdown">
+          <a class="btn btn-outline-secondary border-dark dropdown-toggle " href="#" role="button" data-bs-toggle="dropdown">
+                <i class="fa fa-bell  position-relative" aria-hidden="true"></i>
+                <span class="position-absolute   start-25  translate-middle badge rounded-pill bg-success" style="top:5px ;">
+                  2
+                </span>
+        </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">one</a></li>
+            <li><a class="dropdown-item" href="#">two</a></li>
+            <li><a class="dropdown-item" href="#">three</a></li>
+          </ul>
+        </li>
+      </ul>
+      <div class="position-absolute end-0 me-3 ">
+        <img src="https://www.w3schools.com/w3images/avatar2.png" class="rounded-circle" style="height:23px;width:23px" >
+      </div>
+    </div>
+  </div>
+</nav>
+
+ <!-- Second Row -->
+<main class="mt-4">
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-xl-3 col-md-3 col-sm-12">
+            <div class="card container-fluid">
+                <div class=" text-center">
+                    <div class="card-body">
+                        <h4 class="card-title">Profile</h4>
+                        <img src="https://www.w3schools.com/w3images/avatar3.png"style="height:106px;width:106px" class="rounded-circle">
+                    </div>
+                </div>
+                <hr>
+                <div>
+                    <div class="mb-2">
+                        <i class="fa fa-pencil  me-3" aria-hidden="true"></i> BackEnd-Develoer
+
+                    </div>
+                    <div class="mb-2">
+                        <i class="fa fa-home  me-3" aria-hidden="true"></i> Cairo, Luxor
+
+                    </div>
+                    <div class="mb-2">
+                        <i class="fa fa-birthday-cake  me-3" aria-hidden="true"></i> May 5, 1988
+
+                    </div>
+                </div>
+            </div>
+            <div class="card mt-2 ">
+                
+                    <button class="btn btn-secondary  rounded-0 d-flex justify-content-start">
+                        <i class="fa fa-circle-notch me-3 text-center"></i><span> Group1</span>
+                    </button>
+                    <button class="btn btn-secondary  rounded-0 d-flex justify-content-start">
+                        <i class="fa fa-calendar me-3 text-center"></i><span> Group2</span>
+                    </button>
+                    <button class="btn btn-secondary rounded-0 d-flex justify-content-start">
+                        <i class="fa fa-users me-3 text-center" aria-hidden="true"></i><span>My Group3</span>
+                    </button>
+            </div>
+            <div class="card mt-2 container">
+               <div class="p-2 flex-wrap">
+                    <h4>Interests</h4>
+                    <div class="text-white d-flex flex-wrap" style="font-size: 10px;">
+                    <p class="bg-secondary p-1 ms-3" >Football</p>
+                    <p class="bg-secondary p-1 ms-3" >Swimming</p>
+                    <p class="bg-secondary p-1 ms-3" >Running</p>
+                    <p class="bg-secondary p-1 ms-3" >Eating</p>
+                    <p class="bg-secondary p-1 ms-3" >Playstation</p>
+                    <p class="bg-secondary p-1 ms-3" >Self-Stdying</p>
+                    <p class="bg-secondary p-1 ms-3" >Searching</p>
+                    <p class="bg-secondary p-1 ms-3" >Programming</p>
+                    <p class="bg-secondary p-1 ms-3" > Sleeping</p>
+                    <p class="bg-secondary p-1 ms-3" > browsing</p>
+                    </div>
+                </div>
+            </div>
+            <div class="alert alert-warning alert-dismissible fade show my-2" role="alert">
+                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+        </div>
+
+        <!-- Col 2 -->
+        <div class=" col-xl-6 col-md-6 col-sm-12">
+            <div class="card container p-3">
+                <h4 class="text-muted">Social Media template </h4>
+             <div class="input-group mb-3">
+                  <span class="input-group-text" id="input1">@</span>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Username"
+                    aria-label="Username"
+                    aria-describedby="input1"
+                  />
+                </div>
+                <button class="btn btn-secondary"><i class="fa fa-pen"></i> Post</button>
+            </div>
+            <div class="card container p-3 mt-2">
+              <div class="d-flex justify-content-between align-items-center">
+                <div>
+                    <img src="https://www.w3schools.com/w3images/avatar3.png"style="height:40px;width:40px" class="rounded-circle">
+                    John Doe
+                </div>
+                <p class="text-muted">1 Min</p>
+
+              </div>
+              <hr>
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim nihil voluptates
+                 quaerat dolorem possimus impedit sed! Nesciunt distinctio esse 
+                placeat ipsa tempora beatae cupiditate autem ea, earum commodi dolor dolore!
+              </p>
+              <div class="row">
+                <div class="col-md-6">
+                    <img src="img_nature_wide.jpg" width="100%">
+                </div>
+                <div class="col-md-6">
+                    <img width="100%" src="img_nature_wide.jpg">
+                </div>
+                
+               <div class="d-flex mt-2">
+                 <button class="btn btn-secondary me-2"><i class="fa fa-thumbs-up"></i> Post</button>
+                 <button class="btn btn-secondary"><i class="fa fa-message"></i> Post</button>
+               </div>
+              </div>
+            </div>
+            <div class="card container p-3 mt-2">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                      <img src="https://www.w3schools.com/w3images/avatar3.png"style="height:40px;width:40px" class="rounded-circle">
+                      John Doe
+                  </div>
+                  <p class="text-muted">1 Min</p>
+                </div>
+                <hr>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim nihil voluptates
+                   quaerat dolorem possimus impedit sed! Nesciunt distinctio esse 
+                  placeat ipsa tempora beatae cupiditate autem ea, earum commodi dolor dolore!
+                </p>
+                <div class="d-flex mt-2">
+                    <button class="btn btn-secondary me-2"><i class="fa fa-thumbs-up"></i> Post</button>
+                    <button class="btn btn-secondary"><i class="fa fa-message"></i> Post</button>
+                  </div>
+            </div>
+            <div class="card container p-3 mt-2">
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                      <img src="https://www.w3schools.com/w3images/avatar3.png"style="height:40px;width:40px" class="rounded-circle">
+                      John Doe
+                  </div>
+                  <p class="text-muted">1 Min</p>
+                
+                </div>
+                <hr>
+                <p>
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim nihil voluptates
+                   quaerat dolorem possimus impedit sed! Nesciunt distinctio esse 
+                  placeat ipsa tempora beatae cupiditate autem ea, earum commodi dolor dolore!
+                </p>
+                <div class="row">
+                  <div class="col-md-12">
+                      <img src="https://www.w3schools.com/w3images/lights.jpg" width="100%">
+                  </div>
+                 <div class="d-flex mt-2">
+                   <button class="btn btn-secondary me-2"><i class="fa fa-thumbs-up"></i> Post</button>
+                   <button class="btn btn-secondary"><i class="fa fa-message"></i> Post</button>
+                 </div>
+                </div>
+            </div>
+        </div>
+        <div class=" col-xl-3 col-md-3 col-sm-12">
+            <div class="card container-fluid ">
+                <div class=" text-center">
+                    <div class="card-body">
+                        <h4 class="card-title">Profile</h4>
+                        <img src="https://www.w3schools.com/w3images/avatar3.png" width="100%">
+                        <b class="mt-2">Holiday</b>
+                        <p>Friday 20:00</p>
+                        <button class="btn btn-secondary w-100">Info</button>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="card container-fluid mt-2">
+                <div class=" text-center">
+                    <div class="card-body">
+                        <h4 class="card-title">profile</h4>
+                        <img src="/w3images/avatar1.png" width="100%">
+                        <b class="mt-2">Yousef</b>
+                        <br>
+                        <div class="d-flex ">
+                            <button class="btn btn-success btn-group w-50 rounded-0 disabled" ><i class="fa fa-check m-auto" aria-hidden="true"></i></button>
+                            <button class="btn btn-danger btn-group w-50 rounded-0 disabled"><i class="fa fa-times m-auto" aria-hidden="true"></i></button>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="card container-fluid p-4 mt-2">
+                <div class=" text-center">
+                    <div class="card-body text-muted">
+                        <h5>ADS</h5>
+                    </div>
+                </div>
+                
+            </div>
+            <div class="card container-fluid p-4 mt-2">
+                <div class=" text-center">
+                    <div class="card-body text-muted">
+                        <i class="fa fa-bug fa-2x" aria-hidden="true"></i>
+                    </div>
+                </div>
+                
+            </div>
+            
+
+        </div>
+    </div>
+</div>    
+</main>
+<footer class="bg-secondary p-2 mt-2 text-white text-center">
+    <h1>Footer</h1>  
+</footer>
+</body>
+</html>
